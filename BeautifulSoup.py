@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup #Kütüphaneleri ekleme
 
-url="http://yaz.tek.firat.edu.tr/tr/duyurular?page=1"
+url="http://ab.tek.firat.edu.tr/tr/duyurular?page=1"
 if(url.find("page") != -1):
     i = 1
     while(i<4):
